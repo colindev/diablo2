@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Diablo II 符文組合</title>
+<link rel="stylesheet" type="text/css" href="images/rune.css" />
+<link rel="stylesheet" type="text/css" href="images/gem.css" />
+<link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+
+<body>
+	<span id="copy">Power by Colin (僅支援標準語法，請盡量不要使用IE瀏覽)</span>
+    <div id="box_1">
+        <span>請點選符石鑲嵌組合(可複選，可省略)</span>
+        <div id="box_rune"></div>
+    </div>
+    
+    <div id="box_2">
+        <span>請點選查詢裝備種類(可複選)</span> 
+        <div id="box_item_type"><span class="weapon">武器</span><span class="armor">鎧甲</span><span class="helmet">頭盔</span><span class="shield">盾</span></div>
+        <form class="key-word"><label><input id="key_word" /> 包函關鍵字(如果想包含一個以上關鍵字請用','隔開)</label></form>
+    </div>
+    <div id="display" class="items"></div>
+</body>
+</html>
+<script type="text/javascript" src="jquery.1.6.4.min.js"></script>
+<!--
+<script src="http://colin-x1124.sg1002.myweb.hinet.net/core.2011/lib_js/Colin.js"></script>
+<script type="text/javascript">
+Colin.imports('global.Cookie');
+</script>
+-->
+
+<script src="cookie.js"></script>
+<script src="tooltip.js"></script>
+<link rel="stylesheet" type="text/css" href="tooltip.css" />
+<script src="diablo2.js"></script>
+<script src="diablo2.Rune.js"></script>
+<script src="diablo2.Armor.js"></script>
+<script src="diablo2.Helmet.js"></script>
+<script src="diablo2.Shield.js"></script>
+<script src="diablo2.Weapon.js"></script>
+<script src="system.js"></script>

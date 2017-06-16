@@ -1,0 +1,96 @@
+html, body{ height:100%; overflow:hidden; margin:0;}
+body{ font-size:12px; line-height:1.3em; border-top:1px solid #EEE;}
+#box_1{
+	position:fixed; top:0; left:0; z-index:10;
+	width:280px;
+	height:100%;
+	border-top:1px solid #EEE;
+	box-shadow:1px 0px 3px #666;
+	overflow-y:auto;
+	background:#EEE;
+}
+#box_2{
+	position:absolute; top:0; left:280px; right:0;z-index:9;
+	min-width:620px;
+	height:100px;
+	border-top:1px solid #EEE;
+	box-shadow:1px 1px 3px #666;
+	overflow-x:auto;
+	background:#EEE;
+}
+#box_2 > *{ margin:0.5em;}
+#display{
+	position:absolute; top:100px; left:280px; right:0; bottom:0;
+	overflow:auto;
+}
+
+#box_rune span{
+	border-radius:5px;
+	background-color:#212121;
+	color:#666;
+	display:inline-block;
+	width:85px;
+	padding:0.5em;
+	padding-left:35px;
+	margin:2px 0 0 2px;
+	cursor:pointer;
+}
+#box_rune span:hover{ color:#EEE;}
+#box_rune span.active{
+	color:#FFF; background-color:#424242!important;
+	box-shadow:0px 1px 2px #000;
+}
+
+#box_item_type span{
+	border-radius:5px;
+	color:#222;
+	display:inline-block;
+	width:100px;
+	padding:0.5em;
+	text-align:center;
+	margin:2px 0 0 2px;
+	cursor:pointer;
+	background:#DDD;
+}
+#box_item_type span.active{
+	color:#FFF; background-color:#646464!important;
+	box-shadow:0px 1px 2px #000;
+}
+div.items:after{ content:'.'; display:block; height:0; overflow:hidden; clear:both;}
+div.items span{
+	display:block;
+}
+div.items span.rune{ color:#d08420;}
+div.items span.type{ white-space:pre;color:#666;}
+div.items span.property{ white-space:pre; color:#5050ac;}
+.item h3{
+	margin-left:20px;
+	font-weight:normal;
+	color:#948064;
+	font-size:16px;
+}
+.item{ 
+	float:left; 
+	margin:3px 0 0 3px; 
+	background:#212121; 
+	border:2px solid #DDD;
+	padding:0.5em;
+	height:360px;
+	width:240px;
+	overflow:auto;
+	text-shadow:0px 1px 2px #000;
+}
+.key-word{}
+#key_word{ width:35em;}
+.key-word-find{ background:#FC0; color:#03F;}
+#copy{
+	position:fixed; top:0; right:0; z-index:20;
+	border-radius:0 0 0 5px;
+	background:#000; color:#FFF;
+	opacity:0.7;
+	padding:0.3em 0.5em;
+}
+.tooltip{
+	opacity:0.9!important;
+	box-shadow:0px 1px 5px #999;
+}

@@ -1,0 +1,34 @@
+.Topaz_Chipped, .Amethyst_Chipped, .Sapphire_Chipped, .Ruby_Chipped, .Emerald_Chipped, .Diamond_Chipped,
+.Topaz_Flawed, .Amethyst_Flawed, .Sapphire_Flawed, .Ruby_Flawed, .Emerald_Flawed, .Diamond_Flawed,
+.Topaz_Normal, .Amethyst_Normal, .Sapphire_Normal, .Ruby_Normal, .Emerald_Normal, .Diamond_Normal,
+.Topaz_Flawless, .Amethyst_Flawless, .Sapphire_Flawless, .Ruby_Flawless, .Emerald_Flawless, .Diamond_Flawless{
+	display:inline-block; width:28px; height:28px;
+	background:no-repeat center center;
+}
+.Topaz_Chipped{ background-image:url(Topaz_Chipped.png);}
+.Amethyst_Chipped{ background-image:url(Amethyst_Chipped.png);}
+.Sapphire_Chipped{ background-image:url(Sapphire_Chipped.png);}
+.Ruby_Chipped{ background-image:url(Ruby_Chipped.png);}
+.Emerald_Chipped{ background-image:url(Emerald_Chipped.png);}
+.Diamond_Chipped{ background-image:url(Diamond_Chipped.png);}
+
+.Topaz_Flawed{ background-image:url(Topaz_Flawed.png);}
+.Amethyst_Flawed{ background-image:url(Amethyst_Flawed.png);}
+.Sapphire_Flawed{ background-image:url(Sapphire_Flawed.png);}
+.Ruby_Flawed{ background-image:url(Ruby_Flawed.png);}
+.Emerald_Flawed{ background-image:url(Emerald_Flawed.png);}
+.Diamond_Flawed{ background-image:url(Diamond_Flawed.png);}
+
+.Topaz_Normal{ background-image:url(Topaz_Normal.png);}
+.Amethyst_Normal{ background-image:url(Amethyst_Normal.png);}
+.Sapphire_Normal{ background-image:url(Sapphire_Normal.png);}
+.Ruby_Normal{ background-image:url(Ruby_Normal.png);}
+.Emerald_Normal{ background-image:url(Emerald_Normal.png);}
+.Diamond_Normal{ background-image:url(Diamond_Normal.png);}
+
+.Topaz_Flawless{ background-image:url(Topaz_Flawless.png);}
+.Amethyst_Flawless{ background-image:url(Amethyst_Flawless.png);}
+.Sapphire_Flawless{ background-image:url(Sapphire_Flawless.png);}
+.Ruby_Flawless{ background-image:url(Ruby_Flawless.png);}
+.Emerald_Flawless{ background-image:url(Emerald_Flawless.png);}
+.Diamond_Flawless{ background-image:url(Diamond_Flawless.png);}

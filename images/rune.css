@@ -1,0 +1,38 @@
+.El, .Eid, .Tir, .Nef, .Eth, .Ith, .Tal, .Ral, .Ort, .Thul,
+.Amn, .Sol, .Shael, .Dol, .Hel, .Io, .Lum, .Ko, .Fal, .Lem,
+.Pul, .Um, .Mal, .Ist, .Gul, .Vex, .Onm, .Lo, .Sur, .Ber,
+.Jah, .Cham, .Zod{ display:inline-block; height:28px; line-height:28px;}
+
+.El{ background:url(El.png) no-repeat 5px center; padding-left:30px;}
+.Eid{ background:url(Eid.png) no-repeat 5px center;padding-left:30px;}
+.Tir{ background:url(Tir.png) no-repeat 5px center;padding-left:30px;}
+.Nef{ background:url(Nef.png) no-repeat 5px center;padding-left:30px;}
+.Eth{ background:url(Eth.png) no-repeat 5px center;padding-left:30px;}
+.Ith{ background:url(Ith.png) no-repeat 5px center;padding-left:30px;}
+.Tal{ background:url(Tal.png) no-repeat 5px center;padding-left:30px;}
+.Ral{ background:url(Ral.png) no-repeat 5px center;padding-left:30px;}
+.Ort{ background:url(Ort.png) no-repeat 5px center;padding-left:30px;}
+.Thul{ background:url(Thul.png) no-repeat 5px center;padding-left:30px;}
+.Amn{ background:url(Amn.png) no-repeat 5px center;padding-left:30px;}
+.Sol{ background:url(Sol.png) no-repeat 5px center;padding-left:30px;}
+.Shael{ background:url(Shael.png) no-repeat 5px center;padding-left:30px;}
+.Dol{ background:url(Dol.png) no-repeat 5px center;padding-left:30px;}
+.Hel{ background:url(Hel.png) no-repeat 5px center;padding-left:30px;}
+.Io{ background:url(Io.png) no-repeat 5px center;padding-left:30px;}
+.Lum{ background:url(Lum.png) no-repeat 5px center;padding-left:30px;}
+.Ko{ background:url(Ko.png) no-repeat 5px center;padding-left:30px;}
+.Fal{ background:url(Fal.png) no-repeat 5px center;padding-left:30px;}
+.Lem{ background:url(Lem.png) no-repeat 5px center;padding-left:30px;}
+.Pul{ background:url(Pul.png) no-repeat 5px center;padding-left:30px;}
+.Um{ background:url(Um.png) no-repeat 5px center;padding-left:30px;}
+.Mal{ background:url(Mal.png) no-repeat 5px center;padding-left:30px;}
+.Ist{ background:url(Ist.png) no-repeat 5px center;padding-left:30px;}
+.Gul{ background:url(Gul.png) no-repeat 5px center;padding-left:30px;}
+.Vex{ background:url(Vex.png) no-repeat 5px center;padding-left:30px;}
+.Onm{ background:url(Onm.png) no-repeat 5px center;padding-left:30px;}
+.Lo{ background:url(Lo.png) no-repeat 5px center;padding-left:30px;}
+.Sur{ background:url(Sur.png) no-repeat 5px center;padding-left:30px;}
+.Ber{ background:url(Ber.png) no-repeat 5px center;padding-left:30px;}
+.Jah{ background:url(Jah.png) no-repeat 5px center;padding-left:30px;}
+.Cham{ background:url(Cham.png) no-repeat 5px center;padding-left:30px;}
+.Zod{ background:url(Zod.png) no-repeat 5px center;padding-left:30px;}
